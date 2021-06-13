@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header-another">
+			<div class="header__content _container">
+				<div class="header__row">
+					<div class="header__menu menu">
+						<nav class="menu__body menu__body-1">
+							<ul class="menu__list menu__list-1">
+								<li><a href="index.html" data-goto="work" class="menu__link _icon-triangle ">Работы</a>
+								</li>
+								<li><a href="index.html" data-goto="about" class="menu__link _icon-triangle ">О
+										Компании</a></li>
+							</ul>
+						</nav>
+					</div>
+					<a href="index.html" class="header__logo">
+						<picture>
+							<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="">
+						</picture>
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body menu__body-2">
+							<ul data-da='.menu__body-1,767,last' class="menu__list menu__list-2">
+								<li><a href="index.html" data-goto="main-block" class="menu__link _icon-triangle">Статьи</a>
+								</li>
+								<li><a href="index.html" data-goto="contacts" class="menu__link _icon-triangle">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="menu__icon icon-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</header>
+		<main class="page">
+			<div class="service">
+				<div class="service__container _container">
+					<div class="service__img _ibg">
+						<picture>
+							<source srcset="img/услуга.webp" type="image/webp"><img src="img/услуга.jpg" alt="">
+						</picture>
+					</div>
+					<div class="service__title title">Дизайн</div>
+					<div class="service__text">Разнообразный и богатый опыт говорит нам, что постоянный количественный рост и
+						сфера нашей активности в значительной степени обусловливает важность дальнейших направлений развития.
+						Приятно, граждане, наблюдать, как предприниматели в сети интернет представляют собой не что иное, как
+						квинтэссенцию победы маркетинга над разумом и должны быть заблокированы в рамках своих собственных
+						рациональных ограничений. Но разбавленное изрядной долей эмпатии, рациональное мышление предопределяет
+						высокую востребованность системы обучения кадров, соответствующей насущным потребностям.</div>
+					<div class="service__btn btn"><a href="#form" class="_popup-link">Расчёт стоимости</a></div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__content _container">
+				<div class="footer__row-1">
+					<ul class="footer__links">
+						<li><a href="#" class="footer__link">Работы</a></li>
+						<li><a href="#" class="footer__link">О компании </a></li>
+						<li><a href="#" class="footer__link">Статьи</a></li>
+						<li><a href="#" class="footer__link">Контакты</a></li>
+					</ul>
+					<div class="footer__contacts">
+						<a href="#" class="footer__email">
+							<div class="_icon-mail"></div>
+							<span>conceptmanager01@gmail.com</span>
+						</a>
+						<div class="footer__telephones">
+							<div class="_icon-tel"></div>
+							<div class="footer__tels">
+								<a href="tel:89101786595" class="footer__telephone">+7 (910) 178-65-95</a>
+								<a href="tel:84923241515" class="footer__telephone">+7 (492) 324-15-15</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__row-2">
+					<div class="footer__copyrights">
+						<p>Политика конфедициальности</p>
+						<p>Все права защищены 1997 - 2021</p>
+					</div>
+					<div class="footer__social">
+						<a href="" class="footer__whatsup">
+							<picture>
+								<source srcset="img/footer/whatsapp.webp" type="image/webp"><img src="img/footer/whatsapp.png"
+									alt="">
+							</picture>
+						</a>
+						<a href="" class="footer__instagram">
+							<picture>
+								<source srcset="img/footer/instagram.webp" type="image/webp"><img src="img/footer/instagram.png"
+									alt="">
+							</picture>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="popup popup_form">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__close">✖</div>
+				<form class="form-pop" action="#">
+					<div class="form-pop__line">
+						<input type="text" name="form[name]" data-error="Это поле является обязательным*" data-value=""
+							class="form-pop__input input _req" placeholder="Ваше имя">
+					</div>
+					<div class="form-pop__line">
+						<input type="text" name="form[telephone]" data-error="Это поле является обязательным*" data-value=""
+							class="form-pop__input input _req _phone" placeholder="Ваш телефон">
+					</div>
+					<div class="form-pop__line">
+						<textarea autocomplete="off" name="form[text]" data-value=""
+							data-error="Это поле является обязательным*" class="form-pop__textarea _req"
+							placeholder="Опишите что вам нужно"></textarea>
+					</div>
+					<div class="form-pop__line">
+						<button type="submit" class="form-pop__btn btn _fw">
+							<p>Расчитать стоимость прямо
+								сейчас</p>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/vendors.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
